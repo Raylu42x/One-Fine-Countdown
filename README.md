@@ -1,4 +1,4 @@
-# countdown.kervian.com
+# One Fine Countdown
 
 > Every moment, counted beautifully.
 
