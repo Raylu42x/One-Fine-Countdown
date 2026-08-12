@@ -37,6 +37,8 @@ Click any card and the countdown takes over the screen with its own animation.
 
 When the moment arrives, the timer switches to a done-greeting automatically.
 
+**True fullscreen.** The ⤢ button next to the options gear (or the `F` key) puts the timer into browser fullscreen, so it works as a wall display or a projected countdown. After three idle seconds in fullscreen the back button, gear, and mouse cursor fade out, leaving only the countdown; any movement or keypress brings them back. `Esc` exits, as everywhere else. The button is hidden on browsers without the Fullscreen API, such as Safari on iPhone.
+
 ## Tech
 
 One self-contained `index.html`. Vanilla JS, no framework, no build step. The only dependency is Google Fonts (Instrument Serif for the display headings and Space Grotesk for the countdown digits); the rest of the UI uses the system font stack. The whole site is about 2400 lines.
