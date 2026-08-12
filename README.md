@@ -46,9 +46,10 @@ One self-contained `index.html`. Vanilla JS, no framework, no build step. The on
 ## Repo layout
 
 ```
-index.html       the whole site
-docs/            screenshots and project notes
-CNAME            custom domain config for GitHub Pages
+index.html                   the whole site
+onefinecountdown-logo.png    favicon, touch icon, and link-preview image
+docs/                        screenshots and project notes
+CNAME                        custom domain config for GitHub Pages
 ```
 
 ## Deployment
